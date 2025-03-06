@@ -34,8 +34,8 @@ def extract(url):
 def transform(text):
     # data = json.loads(text)
     records = []
-    for d in text["Weekly Time Series"]:
-        stock_info = text["Weekly Time Series"][d]
+    for d in text["Time Series (Daily)"]:
+        stock_info = text["Time Series (Daily)"][d]
     #   stock_info["date"] = d
     #   stock_info["lab_symbol"] = Variable.get("lab_symbol")
         record = {
