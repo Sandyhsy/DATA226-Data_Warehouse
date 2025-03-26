@@ -12,9 +12,6 @@ import snowflake.connector
 This pipeline assumes that there are two other tables in your snowflake DB
  - user_session_channel
  - session_timestamp
-
-With regard to how to set up these two tables, please refer to this README file:
- - https://github.com/keeyong/sjsu-data226-SP25/blob/main/week8/How-to-setup-ETL-tables-for-ELT.md
 """
 
 def return_snowflake_conn():
@@ -87,9 +84,5 @@ with DAG(
             JOIN dev.raw.session_timestamp s ON u.sessionId = s.sessionId
         ) WHERE row_num = 1
     """
-
-        # SELECT u.*, s.ts
-        # FROM dev.raw.user_session_channel u
-        # JOIN dev.raw.session_timestamp s ON u.sessionId=s.sessionId
     
     run_ctas(database, schema, table, select_sql, primary_key='sessionId')
