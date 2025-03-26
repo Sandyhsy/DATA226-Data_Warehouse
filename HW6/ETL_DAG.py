@@ -78,5 +78,3 @@ with DAG(
     
     create_snowflake_tables = create_tables(database, schema, table_channel, table_timestamp)
     load_snowflake_data = load_data(database, schema, table_channel, table_timestamp)
-
-    #create_snowflake_tables >> load_snowflake_data  # Task dependencies
