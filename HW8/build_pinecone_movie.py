@@ -70,10 +70,15 @@ with DAG(
         
         # Clean up
         df['title'] = df['title'].astype(str).fillna('')
-        df['subtitle'] = df['subtitle'].astype(str).fillna('')
+        df['overview'] = df['overview'].astype(str).fillna('')
+        df['tagline'] = df['tagline'].astype(str).fillna('')
         
         # Create metadata
-        df['metadata'] = df.apply(lambda row: {'title': row['title'] + " " + row['subtitle']}, axis=1)
+        df['metadata'] = df.apply(lambda row: {
+            'title': row['title'],
+            'overview': row['overview'],
+            'tagline': row['tagline']
+        }, axis=1)
         
         # Add ID
         df['id'] = df.reset_index(drop='index').index.astype(str)
@@ -152,8 +157,8 @@ with DAG(
             metadata_list = batch_df['metadata'].apply(eval).tolist()
             
             # Generate embeddings for this batch
-            titles = [meta['title'] for meta in metadata_list]
-            embeddings = model.encode(titles)
+            texts = [f"{meta['title']} {meta['tagline']} {meta['overview']}" for meta in metadata_list]
+            embeddings = model.encode(texts)
             
             # Prepare upsert data
             upsert_data = []
@@ -163,7 +168,7 @@ with DAG(
                     'values': embeddings[j].tolist(),
                     'metadata': metadata_list[j]
                 })
-            
+                        
             # Upsert to Pinecone
             index.upsert(upsert_data)
         
@@ -197,7 +202,9 @@ with DAG(
         # Print results
         print(f"Search results for query: '{query}'")
         for result in results['matches']:
-            print(f"ID: {result['id']}, Score: {result['score']}, Title: {result['metadata']['title'][:50]}...")
+            print(f"Title: {result['metadata']['title']}")
+            print(f"Overview: {result['metadata']['overview'][:100]}...")
+
     
     # Define task dependencies using the TaskFlow API
     data_path = download_data()
