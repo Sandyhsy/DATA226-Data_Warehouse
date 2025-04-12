@@ -21,20 +21,20 @@ default_args = {
 }
 
 with DAG(
-    dag_id='Medium_to_Pinecone',
+    dag_id='Movie_to_Pinecone',
     default_args=default_args,
-    description='Build a Medium Posting Search Engine using Pinecone',
+    description='Build a Movie Semantic Search Engine using Pinecone',
     schedule_interval=timedelta(days=7),
     start_date=datetime(2025, 4, 1),
     catchup=False,
-    tags=['medium', 'pinecone', 'search-engine', 'movies'],
+    tags=['movies', 'pinecone', 'search-engine'],
 ) as dag:
     """
-    DAG to build a Medium article search engine using Pinecone vector database
+    DAG to build a Movie article search engine using Pinecone vector database
     """
     @task
     def download_data():
-        """Download Medium dataset using requests"""
+        """Download Movie dataset using requests"""
         # Create data directory if it doesn't exist
         data_dir = '/tmp/tmdb_5000_movies'
         os.makedirs(data_dir, exist_ok=True)
@@ -84,7 +84,7 @@ with DAG(
         df['id'] = df.reset_index(drop='index').index.astype(str)
         
         # Save preprocessed data
-        preprocessed_path = '/tmp/tmdb_5000_movies/medium_preprocessed.csv'
+        preprocessed_path = '/tmp/tmdb_5000_movies/Movie_preprocessed.csv'
         df.to_csv(preprocessed_path, index=False)
         
         print(f"Preprocessed data saved to {preprocessed_path}")
