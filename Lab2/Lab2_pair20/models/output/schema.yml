@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: ranked_cases_by_district
+    description: "Ranks police districts based on the number of cases handled"
+    columns:
+      - name: police_district
+        description: "District being ranked"
+        tests:
+          - not_null
+      - name: total_cases
+        description: "Total cases in the district"
+      - name: district_rank
+        description: "Rank of the district by case volume"
+        tests:
+          - not_null
+
+  - name: count_daily_cases
+    description: "Aggregated number of cases handled per day"
+    columns:
+      - name: case_date
+        description: "Date"
+        tests:
+          - not_null
+      - name: daily_case_count
+        description: "Total number of cases for that day"
+
+  - name: avg_response_ranked
+    description: "Ranks police districts based on average response time"
+    columns:
+      - name: police_district
+        description: "District being ranked"
+        tests:
+          - not_null
+      - name: avg_response_time
+        description: "Average response time"
+      - name: response_time_rank
+        description: "Rank based on fastest response"
+        tests:
+          - not_null

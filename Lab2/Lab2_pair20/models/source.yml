@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    database: USER_DB_LION
+    schema: raw
+    description: "Schema which stores raw tables (ETL)"
+    tables:
+      - name: law_enforcement_calls
+        description: "Raw table of law enforcement calls"
+
+  - name: analytics
+    database: USER_DB_LION
+    schema: analytics
+    description: "Schema that stores analytics tables (ELT output)"
+    tables:
+      - name: ranked_cases_by_district
+        description: "Ranked list of districts by total case count"
+      - name: count_daily_cases
+        description: "Daily count of cases"
+      - name: avg_response_ranked
+        description: "District ranking by average response time"

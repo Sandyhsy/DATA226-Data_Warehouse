@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: cases_by_district
+    description: "Counts the number of law enforcement cases per police district"
+    columns:
+      - name: police_district
+        description: "District where the police unit is located"
+        tests:
+          - not_null
+      - name: total_cases
+        description: "Total number of cases handled by the district"
+        tests:
+          - not_null
+
+  - name: daily_cases
+    description: "Prepares timestamped data for daily case count aggregation"
+    columns:
+      - name: case_date
+        description: "Date on which the case was received"
+        tests:
+          - not_null
+      - name: case_id
+        description: "Unique identifier for the case"
+        tests:
+          - not_null
+
+  - name: avg_response_by_district
+    description: "Calculates average total response time per police district"
+    columns:
+      - name: police_district
+        description: "Police district"
+        tests:
+          - not_null
+      - name: avg_response_time
+        description: "Average total response time in minutes"
