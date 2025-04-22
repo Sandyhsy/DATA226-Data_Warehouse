@@ -1,0 +1,655 @@
+[2025-04-12T04:24:00.563+0000] {processor.py:186} INFO - Started process (PID=815) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:00.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:24:00.565+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:00.565+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:03.183+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:24:03.189+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:03.278+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:03.278+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:24:03.287+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:03.287+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:24:03.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.741 seconds
+[2025-04-12T04:24:26.641+0000] {processor.py:186} INFO - Started process (PID=823) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:26.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:24:26.644+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:26.644+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:29.201+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:24:29.203+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:29.225+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:29.224+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:24:29.239+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:29.239+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:24:29.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.622 seconds
+[2025-04-12T04:24:32.728+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:32.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:24:32.732+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:32.731+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:35.887+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:24:35.889+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:24:35.901+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:35.901+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:24:35.910+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:24:35.910+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:24:35.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.198 seconds
+[2025-04-12T04:25:06.175+0000] {processor.py:186} INFO - Started process (PID=865) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:25:06.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:25:06.177+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:25:06.176+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:25:07.960+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:25:07.962+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:25:08.001+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:25:08.001+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:25:08.009+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:25:08.009+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:25:08.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 1.846 seconds
+[2025-04-12T04:25:38.521+0000] {processor.py:186} INFO - Started process (PID=887) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:25:38.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:25:38.523+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:25:38.523+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:25:41.225+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:25:41.231+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:25:41.252+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:25:41.251+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:25:41.271+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:25:41.271+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:25:41.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.764 seconds
+[2025-04-12T04:26:11.705+0000] {processor.py:186} INFO - Started process (PID=909) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:26:11.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:26:11.707+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:26:11.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:26:14.083+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:26:14.085+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:26:14.169+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:26:14.168+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:26:14.184+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:26:14.184+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:26:14.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.494 seconds
+[2025-04-12T04:26:44.750+0000] {processor.py:186} INFO - Started process (PID=931) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:26:44.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:26:44.752+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:26:44.752+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:26:47.210+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:26:47.212+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:26:47.223+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:26:47.223+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:26:47.234+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:26:47.233+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:26:47.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.504 seconds
+[2025-04-12T04:27:17.607+0000] {processor.py:186} INFO - Started process (PID=955) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:27:17.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:27:17.609+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:27:17.609+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:27:19.158+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:27:19.160+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:27:19.196+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:27:19.196+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:27:19.202+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:27:19.202+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:27:19.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 1.607 seconds
+[2025-04-12T04:27:49.578+0000] {processor.py:186} INFO - Started process (PID=972) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:27:49.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:27:49.580+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:27:49.580+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:27:52.842+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:27:52.844+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:27:52.865+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:27:52.865+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:27:52.878+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:27:52.877+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:27:52.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.318 seconds
+[2025-04-12T04:28:23.128+0000] {processor.py:186} INFO - Started process (PID=994) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:28:23.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:28:23.130+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:28:23.130+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:28:27.302+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:28:27.305+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:28:27.387+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:28:27.386+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:28:27.402+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:28:27.402+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:28:27.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 4.297 seconds
+[2025-04-12T04:28:57.768+0000] {processor.py:186} INFO - Started process (PID=1015) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:28:57.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:28:57.771+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:28:57.771+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:29:00.526+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:29:00.536+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:29:00.613+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:29:00.613+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:29:00.640+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:29:00.640+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:29:00.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.901 seconds
+[2025-04-12T04:29:31.088+0000] {processor.py:186} INFO - Started process (PID=1046) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:29:31.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:29:31.091+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:29:31.090+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:29:33.150+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:29:33.152+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:29:33.189+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:29:33.188+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:29:33.195+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:29:33.195+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:29:33.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.116 seconds
+[2025-04-12T04:30:03.576+0000] {processor.py:186} INFO - Started process (PID=1065) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:30:03.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:30:03.579+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:30:03.578+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:30:06.056+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:30:06.058+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:30:06.072+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:30:06.072+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:30:06.083+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:30:06.083+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:30:06.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.519 seconds
+[2025-04-12T04:30:36.464+0000] {processor.py:186} INFO - Started process (PID=1087) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:30:36.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:30:36.466+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:30:36.465+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:30:38.488+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:30:38.490+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:30:38.527+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:30:38.527+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:30:38.534+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:30:38.534+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:30:38.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.080 seconds
+[2025-04-12T04:31:08.927+0000] {processor.py:186} INFO - Started process (PID=1107) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:31:08.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:31:08.931+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:31:08.930+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:31:11.723+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:31:11.727+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:31:11.774+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:31:11.773+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:31:11.865+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:31:11.865+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:31:11.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.984 seconds
+[2025-04-12T04:31:42.434+0000] {processor.py:186} INFO - Started process (PID=1128) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:31:42.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:31:42.439+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:31:42.438+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:31:44.933+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:31:44.938+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:31:45.009+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:31:45.009+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:31:45.016+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:31:45.016+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:31:45.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.608 seconds
+[2025-04-12T04:32:15.463+0000] {processor.py:186} INFO - Started process (PID=1150) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:32:15.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:32:15.473+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:32:15.473+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:32:18.002+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:32:18.005+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:32:18.030+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:32:18.030+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:32:18.044+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:32:18.044+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:32:18.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.609 seconds
+[2025-04-12T04:32:48.537+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:32:48.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:32:48.542+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:32:48.542+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:32:51.271+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:32:51.276+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:32:51.363+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:32:51.363+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:32:51.378+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:32:51.378+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:32:51.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.894 seconds
+[2025-04-12T04:33:22.138+0000] {processor.py:186} INFO - Started process (PID=1194) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:33:22.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:33:22.146+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:33:22.145+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:33:24.487+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:33:24.489+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:33:24.505+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:33:24.505+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:33:24.517+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:33:24.517+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:33:24.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.407 seconds
+[2025-04-12T04:33:55.129+0000] {processor.py:186} INFO - Started process (PID=1216) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:33:55.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:33:55.133+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:33:55.133+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:33:58.101+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:33:58.106+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:33:58.187+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:33:58.187+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:33:58.200+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:33:58.200+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:33:58.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.095 seconds
+[2025-04-12T04:34:28.761+0000] {processor.py:186} INFO - Started process (PID=1238) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:34:28.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:34:28.767+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:34:28.767+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:34:32.174+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:34:32.177+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:34:32.212+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:34:32.211+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:34:32.231+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:34:32.231+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:34:32.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.502 seconds
+[2025-04-12T04:35:02.769+0000] {processor.py:186} INFO - Started process (PID=1265) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:02.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:02.773+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:02.772+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:06.717+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:06.724+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:06.824+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:06.824+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:06.836+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:06.836+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:06.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 4.091 seconds
+[2025-04-12T04:35:14.996+0000] {processor.py:186} INFO - Started process (PID=1281) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:14.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:15.000+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:14.999+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:15.013+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:15.011+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/build_pinecone_movie.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/build_pinecone_movie.py", line 83
+    preprocessed_path = '/tmp/tmdb_5000_movies/medium_preprocessed.csv'
+IndentationError: unexpected indent
+[2025-04-12T04:35:15.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:15.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 0.070 seconds
+[2025-04-12T04:35:15.995+0000] {processor.py:186} INFO - Started process (PID=1286) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:15.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:15.996+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:15.996+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:18.450+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:18.453+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:18.469+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:18.469+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:18.482+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:18.481+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:18.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.504 seconds
+[2025-04-12T04:35:19.572+0000] {processor.py:186} INFO - Started process (PID=1294) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:19.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:19.578+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:19.578+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:19.587+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:19.585+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/build_pinecone_movie.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/build_pinecone_movie.py", line 94
+    preprocessed_path = '/tmp/tmdb_5000_movies/medium_preprocessed.csv'
+IndentationError: unexpected indent
+[2025-04-12T04:35:19.587+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:19.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 0.061 seconds
+[2025-04-12T04:35:23.695+0000] {processor.py:186} INFO - Started process (PID=1299) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:23.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:23.701+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:23.700+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:26.103+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:26.105+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:26.114+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:26.113+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:26.123+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:26.123+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:26.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.450 seconds
+[2025-04-12T04:35:34.328+0000] {processor.py:186} INFO - Started process (PID=1313) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:34.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:34.339+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:34.338+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:37.513+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:37.518+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:37.568+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:37.567+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:37.601+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:37.601+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:37.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.305 seconds
+[2025-04-12T04:35:38.413+0000] {processor.py:186} INFO - Started process (PID=1324) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:38.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:38.416+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:38.416+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:41.942+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:41.945+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:41.996+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:41.995+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:42.007+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:42.007+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:42.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.620 seconds
+[2025-04-12T04:35:44.968+0000] {processor.py:186} INFO - Started process (PID=1337) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:44.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:44.978+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:44.977+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:47.619+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:47.621+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:47.634+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:47.634+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:47.644+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:47.644+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:47.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.699 seconds
+[2025-04-12T04:35:49.220+0000] {processor.py:186} INFO - Started process (PID=1345) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:49.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:49.224+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:49.223+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:51.679+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:51.686+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:51.698+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:51.698+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:51.715+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:51.714+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:51.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.523 seconds
+[2025-04-12T04:35:52.772+0000] {processor.py:186} INFO - Started process (PID=1353) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:52.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:35:52.777+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:52.776+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:55.976+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:35:55.979+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:35:55.994+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:55.994+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:35:56.009+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:35:56.009+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:35:56.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.256 seconds
+[2025-04-12T04:36:26.498+0000] {processor.py:186} INFO - Started process (PID=1375) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:26.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:36:26.506+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:26.505+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:28.646+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:36:28.648+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:28.703+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:28.703+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:36:28.711+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:28.711+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:36:28.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.229 seconds
+[2025-04-12T04:36:46.220+0000] {processor.py:186} INFO - Started process (PID=1397) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:46.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:36:46.222+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:46.222+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:46.226+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:46.225+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/build_pinecone_movie.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/build_pinecone_movie.py", line 175
+    index.upsert(upsert_data)
+IndentationError: unexpected indent
+[2025-04-12T04:36:46.226+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:46.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 0.025 seconds
+[2025-04-12T04:36:54.371+0000] {processor.py:186} INFO - Started process (PID=1402) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:54.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:36:54.375+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:54.375+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:54.387+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:54.386+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/build_pinecone_movie.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/build_pinecone_movie.py", line 178
+    index.upsert(upsert_data)
+IndentationError: unexpected indent
+[2025-04-12T04:36:54.388+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:54.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 0.053 seconds
+[2025-04-12T04:36:57.444+0000] {processor.py:186} INFO - Started process (PID=1407) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:57.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:36:57.447+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:57.447+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:59.723+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:36:59.725+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:36:59.745+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:59.744+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:36:59.753+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:36:59.753+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:36:59.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.328 seconds
+[2025-04-12T04:37:29.939+0000] {processor.py:186} INFO - Started process (PID=1429) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:37:29.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:37:29.945+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:37:29.944+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:37:32.714+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:37:32.716+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:37:32.724+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:37:32.724+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:37:32.733+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:37:32.733+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:37:32.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.812 seconds
+[2025-04-12T04:37:55.363+0000] {processor.py:186} INFO - Started process (PID=1452) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:37:55.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:37:55.368+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:37:55.367+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:37:57.629+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:37:57.631+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:37:57.675+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:37:57.675+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:37:57.682+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:37:57.682+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:37:57.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.341 seconds
+[2025-04-12T04:38:00.797+0000] {processor.py:186} INFO - Started process (PID=1460) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:00.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:38:00.803+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:00.802+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:04.560+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:38:04.565+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:04.587+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:04.586+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:38:04.609+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:04.609+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:38:04.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.839 seconds
+[2025-04-12T04:38:08.625+0000] {processor.py:186} INFO - Started process (PID=1474) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:08.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:38:08.630+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:08.629+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:10.706+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:38:10.708+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:10.719+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:10.719+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:38:10.731+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:10.731+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:38:10.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.124 seconds
+[2025-04-12T04:38:26.032+0000] {processor.py:186} INFO - Started process (PID=1490) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:26.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:38:26.042+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:26.041+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:28.350+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:38:28.352+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:28.380+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:28.379+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:38:28.394+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:28.394+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:38:28.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.388 seconds
+[2025-04-12T04:38:51.445+0000] {processor.py:186} INFO - Started process (PID=1504) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:51.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:38:51.455+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:51.451+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:51.467+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:51.466+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/build_pinecone_movie.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/build_pinecone_movie.py", line 212
+    data_path = download_data()
+IndentationError: unexpected indent
+[2025-04-12T04:38:51.468+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:51.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 0.079 seconds
+[2025-04-12T04:38:56.505+0000] {processor.py:186} INFO - Started process (PID=1512) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:56.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:38:56.506+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:56.506+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:58.735+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:38:58.734+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/build_pinecone_movie.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/build_pinecone_movie.py", line 207, in <module>
+    print(f"Title: {result['metadata']['title']}")
+                    ^^^^^^
+NameError: name 'result' is not defined
+[2025-04-12T04:38:58.736+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:38:58.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.244 seconds
+[2025-04-12T04:39:04.815+0000] {processor.py:186} INFO - Started process (PID=1531) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:04.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:39:04.819+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:04.818+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:07.501+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:39:07.504+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:07.526+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:07.525+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:39:07.543+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:07.543+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:39:07.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.756 seconds
+[2025-04-12T04:39:08.628+0000] {processor.py:186} INFO - Started process (PID=1539) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:08.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:39:08.636+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:08.634+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:11.696+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:39:11.699+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:11.708+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:11.707+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:39:11.718+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:11.718+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:39:11.726+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.104 seconds
+[2025-04-12T04:39:30.192+0000] {processor.py:186} INFO - Started process (PID=1550) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:30.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:39:30.194+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:30.194+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:34.431+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:39:34.433+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:39:34.492+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:34.492+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:39:34.507+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:39:34.507+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:39:34.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 4.344 seconds
+[2025-04-12T04:40:04.816+0000] {processor.py:186} INFO - Started process (PID=1578) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:04.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:40:04.818+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:04.818+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:07.274+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:40:07.275+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:07.281+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:07.281+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:40:07.291+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:07.291+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:40:07.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.490 seconds
+[2025-04-12T04:40:10.135+0000] {processor.py:186} INFO - Started process (PID=1591) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:10.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:40:10.138+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:10.138+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:13.951+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:40:13.955+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:13.979+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:13.978+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:40:14.004+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:14.004+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:40:14.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.901 seconds
+[2025-04-12T04:40:44.433+0000] {processor.py:186} INFO - Started process (PID=1612) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:44.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:40:44.438+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:44.437+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:46.701+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:40:46.703+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:40:46.750+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:46.750+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:40:46.758+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:40:46.758+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:40:46.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.348 seconds
+[2025-04-12T04:41:17.164+0000] {processor.py:186} INFO - Started process (PID=1634) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:17.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:41:17.167+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:17.167+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:19.908+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-04-12T04:41:19.910+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:19.935+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:19.935+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:41:19.951+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:19.951+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:41:19.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.810 seconds
+[2025-04-12T04:41:33.505+0000] {processor.py:186} INFO - Started process (PID=1648) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:33.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:41:33.509+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:33.508+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:35.615+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:41:35.616+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:35.665+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.665+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:Movie_to_Pinecone
+[2025-04-12T04:41:35.668+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.668+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:Movie_to_Pinecone
+[2025-04-12T04:41:35.670+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.669+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:Movie_to_Pinecone
+[2025-04-12T04:41:35.671+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.671+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:Movie_to_Pinecone
+[2025-04-12T04:41:35.672+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.672+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:Movie_to_Pinecone
+[2025-04-12T04:41:35.673+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.673+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:Movie_to_Pinecone
+[2025-04-12T04:41:35.675+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.675+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:Movie_to_Pinecone
+[2025-04-12T04:41:35.675+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.675+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:41:35.681+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.681+0000] {dag.py:3252} INFO - Creating ORM DAG for Movie_to_Pinecone
+[2025-04-12T04:41:35.684+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:35.684+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-03 00:00:00+00:00, run_after=2025-04-10 00:00:00+00:00
+[2025-04-12T04:41:35.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.209 seconds
+[2025-04-12T04:41:42.844+0000] {processor.py:186} INFO - Started process (PID=1656) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:42.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:41:42.849+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:42.848+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:45.948+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:41:45.951+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:45.964+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:45.964+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:41:45.977+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:45.977+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-03 00:00:00+00:00, run_after=2025-04-10 00:00:00+00:00
+[2025-04-12T04:41:45.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.156 seconds
+[2025-04-12T04:41:46.573+0000] {processor.py:186} INFO - Started process (PID=1672) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:46.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:41:46.575+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:46.574+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:49.727+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:41:49.730+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:49.748+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:49.748+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:41:49.764+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:49.763+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-03 00:00:00+00:00, run_after=2025-04-10 00:00:00+00:00
+[2025-04-12T04:41:49.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.204 seconds
+[2025-04-12T04:41:50.726+0000] {processor.py:186} INFO - Started process (PID=1680) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:50.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:41:50.729+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:50.728+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:53.044+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:41:53.053+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:53.063+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:53.063+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:41:53.073+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:53.073+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-03 00:00:00+00:00, run_after=2025-04-10 00:00:00+00:00
+[2025-04-12T04:41:53.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.370 seconds
+[2025-04-12T04:41:57.976+0000] {processor.py:186} INFO - Started process (PID=1688) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:41:57.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:41:57.980+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:41:57.980+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:42:00.384+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:42:00.386+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:42:00.394+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:42:00.394+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:42:00.403+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:42:00.403+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-03 00:00:00+00:00, run_after=2025-04-10 00:00:00+00:00
+[2025-04-12T04:42:00.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.452 seconds
+[2025-04-12T04:42:30.892+0000] {processor.py:186} INFO - Started process (PID=1732) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:42:30.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:42:30.900+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:42:30.900+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:42:35.173+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:42:35.177+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:42:35.323+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:42:35.321+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:42:35.355+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:42:35.355+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:42:35.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 4.528 seconds
+[2025-04-12T04:43:06.423+0000] {processor.py:186} INFO - Started process (PID=1775) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:43:06.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:43:06.438+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:43:06.432+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:43:09.813+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:43:09.832+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:43:09.874+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:43:09.874+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:43:09.900+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:43:09.899+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:43:09.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.504 seconds
+[2025-04-12T04:43:40.911+0000] {processor.py:186} INFO - Started process (PID=1797) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:43:40.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:43:40.918+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:43:40.917+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:43:43.794+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:43:43.797+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:43:43.833+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:43:43.832+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:43:43.848+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:43:43.847+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:43:43.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.962 seconds
+[2025-04-12T04:44:14.482+0000] {processor.py:186} INFO - Started process (PID=1821) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:44:14.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:44:14.493+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:44:14.492+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:44:18.155+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:44:18.158+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:44:18.197+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:44:18.195+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:44:18.259+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:44:18.259+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:44:18.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 3.816 seconds
+[2025-04-12T04:44:48.414+0000] {processor.py:186} INFO - Started process (PID=1858) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:44:48.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:44:48.419+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:44:48.418+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:44:50.468+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:44:50.470+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:44:50.481+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:44:50.481+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:44:50.490+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:44:50.490+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:44:50.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.098 seconds
+[2025-04-12T04:45:20.999+0000] {processor.py:186} INFO - Started process (PID=1880) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:45:21.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:45:21.008+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:45:21.005+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:45:23.231+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:45:23.233+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:45:23.251+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:45:23.251+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:45:23.265+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:45:23.265+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:45:23.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.295 seconds
+[2025-04-12T04:45:53.617+0000] {processor.py:186} INFO - Started process (PID=1902) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:45:53.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:45:53.622+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:45:53.622+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:45:55.682+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:45:55.683+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:45:55.703+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:45:55.703+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:45:55.712+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:45:55.712+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:45:55.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.111 seconds
+[2025-04-12T04:46:26.173+0000] {processor.py:186} INFO - Started process (PID=1924) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:46:26.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:46:26.177+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:46:26.176+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:46:28.113+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:46:28.114+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:46:28.127+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:46:28.127+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:46:28.135+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:46:28.135+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:46:28.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 1.977 seconds
+[2025-04-12T04:46:59.046+0000] {processor.py:186} INFO - Started process (PID=1946) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:46:59.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:46:59.051+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:46:59.050+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:47:01.078+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:47:01.081+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:47:01.092+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:47:01.092+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:47:01.101+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:47:01.101+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:47:01.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.072 seconds
+[2025-04-12T04:47:31.252+0000] {processor.py:186} INFO - Started process (PID=1968) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:47:31.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:47:31.257+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:47:31.256+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:47:33.443+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:47:33.445+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:47:33.469+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:47:33.469+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:47:33.478+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:47:33.478+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:47:33.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.252 seconds
+[2025-04-12T04:48:03.812+0000] {processor.py:186} INFO - Started process (PID=1991) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:48:03.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:48:03.816+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:48:03.815+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:48:06.582+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:48:06.584+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:48:06.600+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:48:06.599+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:48:06.610+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:48:06.610+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:48:06.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.821 seconds
+[2025-04-12T04:48:37.092+0000] {processor.py:186} INFO - Started process (PID=2018) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:48:37.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:48:37.095+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:48:37.094+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:48:39.117+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:48:39.118+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:48:39.134+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:48:39.134+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:48:39.143+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:48:39.143+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:48:39.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.064 seconds
+[2025-04-12T04:49:09.584+0000] {processor.py:186} INFO - Started process (PID=2040) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:49:09.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:49:09.588+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:49:09.587+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:49:11.599+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:49:11.600+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:49:11.619+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:49:11.619+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:49:11.633+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:49:11.633+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:49:11.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.063 seconds
+[2025-04-12T04:49:42.004+0000] {processor.py:186} INFO - Started process (PID=2062) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:49:42.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:49:42.009+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:49:42.008+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:49:44.251+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:49:44.253+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:49:44.285+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:49:44.284+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:49:44.302+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:49:44.302+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:49:44.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.322 seconds
+[2025-04-12T04:50:14.720+0000] {processor.py:186} INFO - Started process (PID=2084) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:50:14.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:50:14.724+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:50:14.723+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:50:16.763+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:50:16.764+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:50:16.781+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:50:16.780+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:50:16.788+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:50:16.788+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:50:16.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.084 seconds
+[2025-04-12T04:50:47.367+0000] {processor.py:186} INFO - Started process (PID=2106) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:50:47.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:50:47.373+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:50:47.371+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:50:49.426+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:50:49.427+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:50:49.449+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:50:49.449+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:50:49.461+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:50:49.461+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:50:49.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.110 seconds
+[2025-04-12T04:51:19.681+0000] {processor.py:186} INFO - Started process (PID=2128) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:51:19.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:51:19.684+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:51:19.684+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:51:21.767+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:51:21.769+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:51:21.785+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:51:21.785+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:51:21.793+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:51:21.793+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:51:21.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.130 seconds
+[2025-04-12T04:51:52.179+0000] {processor.py:186} INFO - Started process (PID=2150) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:51:52.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:51:52.183+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:51:52.183+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:51:54.511+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:51:54.513+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:51:54.530+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:51:54.529+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:51:54.542+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:51:54.542+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:51:54.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.383 seconds
+[2025-04-12T04:52:24.965+0000] {processor.py:186} INFO - Started process (PID=2172) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:52:24.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:52:24.970+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:52:24.969+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:52:27.619+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:52:27.622+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:52:27.644+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:52:27.643+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:52:27.653+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:52:27.653+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:52:27.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.707 seconds
+[2025-04-12T04:52:58.509+0000] {processor.py:186} INFO - Started process (PID=2193) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:52:58.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:52:58.518+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:52:58.515+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:53:00.732+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:53:00.734+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:53:00.756+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:53:00.755+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:53:00.765+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:53:00.765+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:53:00.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.271 seconds
+[2025-04-12T04:53:31.228+0000] {processor.py:186} INFO - Started process (PID=2215) to work on /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:53:31.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_pinecone_movie.py for tasks to queue
+[2025-04-12T04:53:31.237+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:53:31.235+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:53:33.226+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Movie_to_Pinecone', key='return_value') }}
+[2025-04-12T04:53:33.228+0000] {processor.py:925} INFO - DAG(s) 'Movie_to_Pinecone' retrieved from /opt/airflow/dags/build_pinecone_movie.py
+[2025-04-12T04:53:33.244+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:53:33.244+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-12T04:53:33.253+0000] {logging_mixin.py:190} INFO - [2025-04-12T04:53:33.253+0000] {dag.py:4156} INFO - Setting next_dagrun for Movie_to_Pinecone to 2025-04-10 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-12T04:53:33.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_pinecone_movie.py took 2.042 seconds

@@ -1,0 +1,188 @@
+[2025-03-25T16:49:27.274+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:49:27.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/train_predict.py for tasks to queue
+[2025-03-25T16:49:27.277+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:49:27.296+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.296+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-25T16:49:27.297+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.297+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-25T16:49:27.299+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.299+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-25T16:49:27.300+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.299+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-25T16:49:27.569+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.568+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/not_running/train_predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/not_running/train_predict.py", line 96, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/not_running/train_predict.py", line 18, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: PJRGOXN-KAB80700.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2025-03-25T16:49:27.569+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:49:27.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/train_predict.py took 0.305 seconds
+[2025-03-25T16:49:58.531+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:49:58.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/train_predict.py for tasks to queue
+[2025-03-25T16:49:58.533+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.533+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:49:58.543+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.542+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-25T16:49:58.543+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.543+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-25T16:49:58.544+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.544+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-25T16:49:58.544+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.544+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-25T16:49:58.774+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.773+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/not_running/train_predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/not_running/train_predict.py", line 96, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/not_running/train_predict.py", line 18, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: PJRGOXN-KAB80700.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2025-03-25T16:49:58.775+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:49:58.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/train_predict.py took 0.254 seconds
+[2025-03-25T16:50:29.800+0000] {processor.py:186} INFO - Started process (PID=347) to work on /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:50:29.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/train_predict.py for tasks to queue
+[2025-03-25T16:50:29.802+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:29.802+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:50:29.811+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:29.811+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-25T16:50:29.811+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:29.811+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-25T16:50:29.812+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:29.812+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-25T16:50:29.812+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:29.812+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-25T16:50:30.047+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:30.045+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/not_running/train_predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/not_running/train_predict.py", line 96, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/not_running/train_predict.py", line 18, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: PJRGOXN-KAB80700.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2025-03-25T16:50:30.048+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:50:30.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/train_predict.py took 0.259 seconds
+[2025-03-25T16:51:00.544+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:51:00.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/train_predict.py for tasks to queue
+[2025-03-25T16:51:00.546+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.546+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:51:00.559+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.559+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-25T16:51:00.560+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.560+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-25T16:51:00.561+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.561+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-25T16:51:00.561+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.561+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-25T16:51:00.775+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.774+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/not_running/train_predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/not_running/train_predict.py", line 96, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/not_running/train_predict.py", line 18, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: PJRGOXN-KAB80700.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2025-03-25T16:51:00.776+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/not_running/train_predict.py
+[2025-03-25T16:51:00.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/train_predict.py took 0.240 seconds

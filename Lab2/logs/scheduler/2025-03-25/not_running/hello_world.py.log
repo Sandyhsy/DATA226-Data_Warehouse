@@ -1,0 +1,28 @@
+[2025-03-25T16:49:27.305+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:49:27.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/hello_world.py for tasks to queue
+[2025-03-25T16:49:27.306+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.306+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:49:27.312+0000] {processor.py:925} INFO - DAG(s) 'HelloWorld' retrieved from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:49:27.327+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.327+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-25T16:49:27.350+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:27.350+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld to 2025-03-24 02:00:00+00:00, run_after=2025-03-25 02:00:00+00:00
+[2025-03-25T16:49:27.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/hello_world.py took 0.065 seconds
+[2025-03-25T16:49:58.610+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:49:58.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/hello_world.py for tasks to queue
+[2025-03-25T16:49:58.613+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.613+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:49:58.622+0000] {processor.py:925} INFO - DAG(s) 'HelloWorld' retrieved from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:49:58.636+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.636+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-25T16:49:58.652+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:49:58.652+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld to 2025-03-24 02:00:00+00:00, run_after=2025-03-25 02:00:00+00:00
+[2025-03-25T16:49:58.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/hello_world.py took 0.055 seconds
+[2025-03-25T16:50:30.073+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:50:30.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/hello_world.py for tasks to queue
+[2025-03-25T16:50:30.075+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:30.075+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:50:30.081+0000] {processor.py:925} INFO - DAG(s) 'HelloWorld' retrieved from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:50:30.092+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:30.092+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-25T16:50:30.101+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:50:30.101+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld to 2025-03-24 02:00:00+00:00, run_after=2025-03-25 02:00:00+00:00
+[2025-03-25T16:50:30.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/hello_world.py took 0.037 seconds
+[2025-03-25T16:51:00.547+0000] {processor.py:186} INFO - Started process (PID=391) to work on /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:51:00.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/not_running/hello_world.py for tasks to queue
+[2025-03-25T16:51:00.550+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.550+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:51:00.559+0000] {processor.py:925} INFO - DAG(s) 'HelloWorld' retrieved from /opt/airflow/dags/not_running/hello_world.py
+[2025-03-25T16:51:00.581+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.581+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-25T16:51:00.595+0000] {logging_mixin.py:190} INFO - [2025-03-25T16:51:00.595+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld to 2025-03-24 02:00:00+00:00, run_after=2025-03-25 02:00:00+00:00
+[2025-03-25T16:51:00.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/not_running/hello_world.py took 0.058 seconds

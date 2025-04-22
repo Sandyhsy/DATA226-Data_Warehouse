@@ -1,0 +1,98 @@
+[2025-04-16T20:58:02.362+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:58:02.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T20:58:02.366+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:58:02.366+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:58:02.380+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:58:02.466+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:58:02.465+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T20:58:02.492+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:58:02.492+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-15 02:45:00+00:00, run_after=2025-04-16 02:45:00+00:00
+[2025-04-16T20:58:02.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.146 seconds
+[2025-04-16T20:58:32.852+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:58:32.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T20:58:32.869+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:58:32.867+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:58:32.907+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:58:32.954+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:58:32.953+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T20:58:32.982+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:58:32.982+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T20:58:32.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.157 seconds
+[2025-04-16T20:59:03.281+0000] {processor.py:186} INFO - Started process (PID=317) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:59:03.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T20:59:03.289+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:59:03.288+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:59:03.333+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:59:03.407+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:59:03.406+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T20:59:03.428+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:59:03.427+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T20:59:03.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.174 seconds
+[2025-04-16T20:59:33.804+0000] {processor.py:186} INFO - Started process (PID=333) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:59:33.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T20:59:33.808+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:59:33.808+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:59:33.825+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T20:59:33.848+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:59:33.848+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T20:59:33.861+0000] {logging_mixin.py:190} INFO - [2025-04-16T20:59:33.860+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T20:59:33.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.071 seconds
+[2025-04-16T21:00:04.309+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:00:04.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:00:04.314+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:00:04.314+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:00:04.330+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:00:04.361+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:00:04.360+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:00:04.385+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:00:04.385+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:00:04.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.095 seconds
+[2025-04-16T21:00:34.703+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:00:34.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:00:34.706+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:00:34.705+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:00:34.718+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:00:34.760+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:00:34.759+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:00:34.783+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:00:34.782+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:00:34.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.097 seconds
+[2025-04-16T21:01:05.034+0000] {processor.py:186} INFO - Started process (PID=380) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:01:05.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:01:05.038+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:01:05.038+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:01:05.053+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:01:05.100+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:01:05.100+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:01:05.121+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:01:05.121+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:01:05.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.106 seconds
+[2025-04-16T21:01:35.466+0000] {processor.py:186} INFO - Started process (PID=396) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:01:35.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:01:35.470+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:01:35.469+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:01:35.485+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:01:35.527+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:01:35.526+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:01:35.549+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:01:35.549+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:01:35.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.102 seconds
+[2025-04-16T21:02:06.012+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:02:06.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:02:06.018+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:02:06.018+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:02:06.042+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:02:06.076+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:02:06.075+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:02:06.092+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:02:06.092+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:02:06.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.098 seconds
+[2025-04-16T21:02:36.602+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:02:36.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:02:36.607+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:02:36.607+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:02:36.621+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:02:36.645+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:02:36.645+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:02:36.658+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:02:36.658+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:02:36.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.075 seconds
+[2025-04-16T21:03:07.007+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:03:07.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:03:07.013+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:03:07.013+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:03:07.026+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:03:07.051+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:03:07.050+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:03:07.065+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:03:07.065+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:03:07.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.075 seconds
+[2025-04-16T21:03:37.366+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:03:37.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:03:37.373+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:03:37.373+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:03:37.399+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:03:37.421+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:03:37.421+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:03:37.436+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:03:37.436+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:03:37.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.089 seconds
+[2025-04-16T21:04:07.954+0000] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:04:07.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:04:07.961+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:04:07.959+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:04:07.973+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:04:07.996+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:04:07.996+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:04:08.012+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:04:08.012+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:04:08.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.073 seconds
+[2025-04-16T21:04:38.371+0000] {processor.py:186} INFO - Started process (PID=491) to work on /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:04:38.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Lab2_ELT.py for tasks to queue
+[2025-04-16T21:04:38.375+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:04:38.375+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:04:38.393+0000] {processor.py:925} INFO - DAG(s) 'ELT' retrieved from /opt/airflow/dags/Lab2_ELT.py
+[2025-04-16T21:04:38.417+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:04:38.417+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-16T21:04:38.441+0000] {logging_mixin.py:190} INFO - [2025-04-16T21:04:38.441+0000] {dag.py:4156} INFO - Setting next_dagrun for ELT to 2025-04-16 02:45:00+00:00, run_after=2025-04-17 02:45:00+00:00
+[2025-04-16T21:04:38.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Lab2_ELT.py took 0.090 seconds

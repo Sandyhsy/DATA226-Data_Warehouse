@@ -1,0 +1,282 @@
+[2025-03-15T01:31:22.051+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:31:22.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_stockprice.py for tasks to queue
+[2025-03-15T01:31:22.054+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:22.054+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:31:22.068+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:22.068+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-15T01:31:22.069+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:22.069+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-15T01:31:22.069+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:22.069+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-15T01:31:22.070+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:22.070+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-15T01:31:22.317+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:22.316+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/ETL_stockprice.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_stockprice.py", line 76, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/ETL_stockprice.py", line 20, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: EYRGUED-VJB46211.snowflakecomputing.com:443. Incorrect username or password was specified.
+[2025-03-15T01:31:22.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:31:22.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_stockprice.py took 0.275 seconds
+[2025-03-15T01:31:53.601+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:31:53.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_stockprice.py for tasks to queue
+[2025-03-15T01:31:53.605+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:53.604+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:31:53.620+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:53.620+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-15T01:31:53.621+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:53.621+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-15T01:31:53.622+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:53.622+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-15T01:31:53.622+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:53.622+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-15T01:31:53.844+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:31:53.843+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/ETL_stockprice.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_stockprice.py", line 76, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/ETL_stockprice.py", line 20, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: EYRGUED-VJB46211.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2025-03-15T01:31:53.845+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:31:53.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_stockprice.py took 0.252 seconds
+[2025-03-15T01:32:24.023+0000] {processor.py:186} INFO - Started process (PID=338) to work on /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:32:24.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_stockprice.py for tasks to queue
+[2025-03-15T01:32:24.027+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:32:24.027+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:32:24.041+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:32:24.041+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-15T01:32:24.042+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:32:24.042+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-15T01:32:24.042+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:32:24.042+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-15T01:32:24.042+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:32:24.042+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-15T01:32:24.237+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:32:24.236+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/ETL_stockprice.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_stockprice.py", line 76, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/ETL_stockprice.py", line 20, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: EYRGUED-VJB46211.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2025-03-15T01:32:24.238+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:32:24.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_stockprice.py took 0.221 seconds
+[2025-03-15T01:49:25.685+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:49:25.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_stockprice.py for tasks to queue
+[2025-03-15T01:49:25.687+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:49:25.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:49:25.703+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:49:25.703+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-15T01:49:25.724+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:49:25.723+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-15T01:49:25.724+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:49:25.724+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-15T01:49:25.725+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:49:25.725+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-15T01:49:25.971+0000] {logging_mixin.py:190} INFO - [2025-03-15T01:49:25.970+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/ETL_stockprice.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_stockprice.py", line 76, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/ETL_stockprice.py", line 20, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: EYRGUED-VJB46211.snowflakecomputing.com:443. Incorrect username or password was specified.
+[2025-03-15T01:49:25.973+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T01:49:25.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_stockprice.py took 0.297 seconds
+[2025-03-15T02:36:31.406+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T02:36:31.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_stockprice.py for tasks to queue
+[2025-03-15T02:36:31.410+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:36:31.409+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T02:36:31.426+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:36:31.426+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-15T02:36:31.427+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:36:31.427+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-15T02:36:31.427+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:36:31.427+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-15T02:36:31.427+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:36:31.427+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-15T02:36:31.722+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:36:31.719+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/ETL_stockprice.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_stockprice.py", line 76, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/ETL_stockprice.py", line 20, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: EYRGUED-VJB46211.snowflakecomputing.com:443. Incorrect username or password was specified.
+[2025-03-15T02:36:31.724+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T02:36:31.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_stockprice.py took 0.332 seconds
+[2025-03-15T02:49:55.183+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T02:49:55.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_stockprice.py for tasks to queue
+[2025-03-15T02:49:55.187+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:49:55.187+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T02:49:55.205+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:49:55.205+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-03-15T02:49:55.205+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:49:55.205+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-15T02:49:55.206+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:49:55.206+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-15T02:49:55.207+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:49:55.207+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-15T02:49:55.504+0000] {logging_mixin.py:190} INFO - [2025-03-15T02:49:55.503+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/ETL_stockprice.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_stockprice.py", line 76, in <module>
+    cur = return_snowflake_conn()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/ETL_stockprice.py", line 20, in return_snowflake_conn
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 300, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 456, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 771, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1099, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1386, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1414, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 284, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 342, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 215, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: EYRGUED-VJB46211.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked.
+[2025-03-15T02:49:55.505+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_stockprice.py
+[2025-03-15T02:49:55.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_stockprice.py took 0.333 seconds
