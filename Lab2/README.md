@@ -32,11 +32,11 @@ Ensure the following variables are correctly set in your Airflow/DBT environment
 
 These should match your dbt `profiles.yml` or the credentials defined in Airflow Connections.
 
-Create dbt service token and get the API(name of the tokens doesn’t matter): 
-<img width="691" alt="Screenshot 2025-04-22 at 4 29 48 PM" src="https://github.com/user-attachments/assets/df7bf324-d578-4113-b7d8-c567418cc725" />
+Create dbt service token and get the API(name of the tokens doesn’t matter): <br>
+<img width="691" alt="Screenshot 2025-04-22 at 4 29 48 PM" src="https://github.com/user-attachments/assets/df7bf324-d578-4113-b7d8-c567418cc725" /> <br> <br>
 
-Set connection to airflow:
-<img width="632" alt="Screenshot 2025-04-22 at 4 29 31 PM" src="https://github.com/user-attachments/assets/94e2242b-b353-4d05-ab60-f557be24fb33" />
+Set connection to airflow: <br>
+<img width="632" alt="Screenshot 2025-04-22 at 4 29 31 PM" src="https://github.com/user-attachments/assets/94e2242b-b353-4d05-ab60-f557be24fb33" /> <br>
 
 ---
 
