@@ -1,62 +1,75 @@
-# Law Enforcement Data Pipeline with Airflow, dbt, and Superset
+# 🚔 Law Enforcement Data Pipeline with Airflow, dbt Cloud, Snowflake, and Superset
 
-This project sets up an end-to-end data pipeline using Apache Airflow, dbt Cloud, Snowflake, and Apache Superset. The pipeline ingests public safety data from San Francisco's open data portal, processes it via dbt, and visualizes insights through Superset.
-
----
-
-## 🔗 Localhost Access
-
-- **Airflow Web UI**: [http://localhost:8081](http://localhost:8081)
+This project implements an end-to-end analytics pipeline for real-time law enforcement dispatch data from the City of San Francisco. It leverages **Apache Airflow** for orchestration, **dbt Cloud** for ELT modeling, **Snowflake** as the cloud data warehouse, and **Apache Superset** for dashboard visualization.
 
 ---
 
-## 🧩 Environment Variables & Configuration
+## 🔧 Localhost Access
 
-Ensure the following variables are correctly set in your Airflow/DBT environment:
+- **Airflow Web UI**: [http://localhost:8081](http://localhost:8081)  
+- **Superset (Optional)**: [http://localhost:8088](http://localhost:8088)
+
+---
+
+## 🗂️ Project Components
+
+| Component         | Tool            | Purpose                                                 |
+|------------------|------------------|----------------------------------------------------------|
+| Data Orchestration | Apache Airflow | Automates ETL and triggers dbt Cloud ELT jobs           |
+| Data Warehouse    | Snowflake        | Stores raw and transformed data                         |
+| Data Modeling     | dbt Cloud        | Cleans and transforms data via SQL models               |
+| Data Visualization| Apache Superset  | Visualizes key performance metrics through dashboards   |
+
+---
+
+## 🧩 Configuration & Variables
 
 ### 📥 Data Source
 
-- **Public Data URL**:  
-  `https://data.sfgov.org/resource/gnap-fj3t.csv`  
-  (_This dataset contains raw police incident reports._)
+- **Source**: `https://data.sfgov.org/resource/gnap-fj3t.csv`  
+  (_Real-time dispatched calls for service from SFPD_)
 
-### 🧠 dbt Cloud Job
+### ❄️ Snowflake
 
-- **dbt Cloud Job ID**: `70471823455826`  
-  (_Used to trigger transformations from Airflow via the dbtCloudRunJobOperator._)
-
-### ❄️ Snowflake Target Configuration
-
-- **Database**: `USER_DB_LION`  
+- **Database**: `USER_DB_LION`
 - **Schema**: `raw`
 
-These should match your dbt `profiles.yml` or the credentials defined in Airflow Connections.
+These variables are set in Airflow using the UI or environment variables.
 
-Create dbt service token and get the API(name of the tokens doesn’t matter): <br>
-<img width="691" alt="Screenshot 2025-04-22 at 4 29 48 PM" src="https://github.com/user-attachments/assets/df7bf324-d578-4113-b7d8-c567418cc725" /> <br> <br>
+### 🧠 dbt Cloud
 
-Set connection to airflow: <br>
-<img width="632" alt="Screenshot 2025-04-22 at 4 29 31 PM" src="https://github.com/user-attachments/assets/94e2242b-b353-4d05-ab60-f557be24fb33" /> <br>
+- **Job ID**: `70471823455826`  
+  Used in the `DbtCloudRunJobOperator` inside Airflow.
+
+**Airflow Connection Setup:**
+
+1. Create a personal or service token in dbt Cloud.  
+2. In Airflow → Admin → Connections, create:
+   - **Conn Id**: `dbt_cloud`
+   - **Conn Type**: `Dbt Cloud`
+   - **Account ID**: (from dbt URL)
+   - **API Token**: (your generated token)
+
 
 ---
 
-## 📊 Visualization (Optional)
+## 📊 Superset Dashboards (Optional)
 
-- Superset can be accessed at [http://localhost:8088](http://localhost:8088) _(if included in the Docker Compose setup)_
-- Dashboards include:
-  - Daily Case Trends
-  - District-wise Case Ranking
-  - Average Police Response Time
+If enabled, Superset can be used to visualize key metrics like:
+
+- 📈 Daily Case Trends
+- 🗺️ District-wise Case Counts
+- ⏱️ Average Response Times
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ How to Run the Project
 
 ```bash
-# Start the entire stack
+# Step 1: Launch Docker services
 docker-compose up --build -d
 
-# (Optional) Reset Superset admin user
+# Step 2 (Optional): Create Superset admin user
 docker exec -it superset superset fab create-admin \
   --username admin \
   --firstname Superset \
