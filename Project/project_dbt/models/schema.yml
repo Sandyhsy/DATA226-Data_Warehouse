@@ -1,0 +1,210 @@
+version: 2
+
+models:
+  - name: raw_sj_weather_data
+    description: "Raw weather data from San Jose over the past 14 days"
+    columns:
+      - name: '"localtime"'
+        description: "Timestamp of each weather reading"
+        tests:
+          - not_null
+          - unique
+      - name: TEMP_F
+        description: "Temperature reading of each weather reading in Fahrenheit"
+        tests:
+          - not_null
+      - name: WIND_MPH
+        description: "Wind speed reading for each entry in MPH"
+        tests:
+          - not_null   
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: PRECIP_IN
+        description: "Precipitation amount in inches for weather entry"
+        tests:
+          - not_null   
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: HUMIDITY
+        description: "Humidity reading for weather entry"
+        tests:
+          - not_null   
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: CLOUDINESS
+        description: "Cloudiness percentage for weather entry"
+        tests:
+          - not_null    
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+      - name: UV
+        description: "UV level from weather data entry"
+        tests:
+          - not_null    
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+  - name: raw_zipcode_weather_data
+    description: "Raw weather data based on zipcodes (chosen to span California)"
+    columns:
+      - name: LOCATION_NAME
+        description: "Name of city where zipcode originates from"
+        tests:
+          - not_null
+      - name: LAT
+        description: "Latitude of city"
+        tests:
+          - not_null
+      - name: LON
+        description: "Longitude of city"
+        tests:
+          - not_null
+      - name: localtime
+        description: "Localtime of weather entry"
+        tests:
+          - not_null
+      - name: TEMP_F
+        description: "Temperature in Fahrenheit of weather reading"
+        tests:
+          - not_null
+      - name: WIND_MPH
+        description: "Wind speed in MPH for weather reading"
+        tests:
+          - not_null   
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: WIND_DIR
+        description: "Cardinal/Intercardinal direction of wind from weather reading"
+        tests:
+          - not_null
+      - name: PRECIP_IN
+        description: "Precipitation amount in inches for weather entry"
+        tests:
+          - not_null   
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: HUMIDITY
+        description: "Humidity reading for weather entry"
+        tests:
+          - not_null   
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: CLOUDINESS
+        description: "Cloudiness percentage for weather entry"
+        tests:
+          - not_null    
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+      - name: CONDITION
+        description: "Description of weather condition for weather entry"
+        tests:
+          - not_null
+      - name: UV
+        description: "UV level from weather data entry"
+        tests:
+          - not_null    
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: GUST_KPH
+        description: "Gust speed in KPH"
+        tests:
+          - not_null    
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+  - name: average_sj_weather
+    description: "Tracks average weather statistics day-by-day"
+    columns:
+      - name: AVERAGE_TEMP
+        description: "Average temperature in Fahrenheit from weather data based on timeframe"
+        tests:
+          - not_null
+      - name: AVERAGE_WIND_MPH
+        description: "Average wind speed in MPH from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: AVERAGE_PRECIP_IN
+        description: "Average rainfall in inches from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: AVERAGE_HUMIDITY
+        description: "Average humidity reading from the timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: AVERAGE_UV
+        description: "Average UV level from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+  - name: filtered_zipcode_data
+    columns:
+      - name: REGION
+        description: "Classification of city's region of California based on latitude"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Southern California', 'Central California', 'Northern California']
+  - name: average_zipcode_data
+    description: "Tracks average weather statistics day-by-day across California zipcodes"
+    columns:
+      - name: REGION
+        description: "Classification of city's region of California based on latitude"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Southern California', 'Central California', 'Northern California']
+      - name: AVERAGE_TEMPERATURE
+        description: "Average temperature in Fahrenheit from weather data based on timeframe"
+        tests:
+          - not_null
+      - name: AVERAGE_WIND_SPEED_MPH
+        description: "Average wind speed in MPH from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: TOTAL_RAINFALL_INCHES
+        description: "Average rainfall in inches from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: AVERAGE_HUMIDITY
+        description: "Average humidity reading from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: AVERAGE_CLOUDINESS
+        description: "Average cloudiness percentage from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: AVERAGE_UV
+        description: "Average UV level from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: AVERAGE_GUST_SPEED_KPH
+        description: "Average gust speed in KPH from weather data based on timeframe"
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+      - name: EARLIEST_RECORD_DATE
+        description: "Date of earliest recorded entry for city for graphing scaling/BI purposes"
+        tests:
+          - not_null
+      - name: LATEST_RECORD_DATE
+        description: "Date of latest recorded entry for city for graphing scaling/BI purposes"
+        tests:
+          - not_null
